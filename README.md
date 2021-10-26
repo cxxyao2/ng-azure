@@ -6,4 +6,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## deploy on azure
 
-- ![azure](./assets/azure1.png)
+- ![azure](src/assets/azure1.png)
