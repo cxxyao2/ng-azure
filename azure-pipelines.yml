@@ -15,8 +15,18 @@ steps:
       versionSpec: "12.18.3"
     displayName: "Install Node.js"
 
+<<<<<<< HEAD
   - script: |
       npm install -g @angular/cli
       npm install
       ng build --prod
     displayName: "npm install and build"
+=======
+- script: |
+    npm install -g @angular/cli
+    npm install
+    ng build --prod
+  displayName: 'npm install and build'
+
+- task: PublishBuildArtifacts@1
+>>>>>>> e3e789f28eeda7f3b9e1bfea03e0feab3a593fb8
