@@ -1,0 +1,20 @@
+button {
+  color: red;
+}
+
+.activeRouteLink {
+  color: purple;
+}
+
+a:link {
+  color: #000000;
+} /* not visited*/
+a:visited {
+  color: #00ff00;
+} /* vistied */
+a:hover {
+  color: #ff00ff;
+} /* mouse on link */
+a:active {
+  color: #0000ff;
+} /* clicked */

@@ -1,0 +1,24 @@
+<h2>Parent</h2>
+<div>
+  <h1 [attr.name]="title" [id]="title">{{ title }}</h1>
+  <form #myForm="ngForm">
+    <input ngModel maxlength="5" name="myName" type="text" />
+    <input ngModel type="number" min="5" name="myAge" />
+    <div>{{ myHero | json }}</div>
+    <div>{{ myForm.valid }} myForm</div>
+    <div>{{ myForm.form.valid }} myForm.form</div>
+
+    <input ngModel [ngModelOptions]="{ name: 'userAddress' }" #address />
+    <button (click)="onClick(myForm.value)">submite</button>
+
+    <button (click)="onEvent($event)">getEvent</button>
+  </form>
+  <hr />
+</div>
+<div>
+  <app-my-child>Antman is flying in the sky</app-my-child>
+</div>
+<div>
+  <p>timer begins at {{ timer$ | async }}</p>
+  <button (click)="createObservable()">create observer</button>
+</div>
