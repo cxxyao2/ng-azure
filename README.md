@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > with Azure Static Web App Service and GitHub Actions
 
+- git push ... will trigger building and deploying automatically. Great!
+
 - ![azure](src/assets/staticpage1.png)
 - ![azure](src/assets/staticpage2.png)
 
