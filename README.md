@@ -7,8 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Set node.js version in the YAML file to be the same as your development environment
 
 # pre-requisitions: import Git repo to Azure  repo
-- ![azurerepo1](src/assets/azure-repo1.png)
-- ![azurerepo2](src/assets/azure-repo2.png)
+- ![azurerepo1](src/azure-repo1.png)
+- ![azurerepo2](src/azure-repo2.png)
 
 # deploy on azure
 
